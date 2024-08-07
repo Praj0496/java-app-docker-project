@@ -5,10 +5,10 @@
     <parent>
         <groupId>training.taylor.time-tracker</groupId>
         <artifactId>time-tracker-parent</artifactId>
-        <version>0.5.0-SNAPSHOT</version>
+        <version>0.1.0</version>
     </parent>
-
-    <artifactId>time-tracker-web</artifactId>
+    <!-- time-tracker-web -->
+    <artifactId>java-app</artifactId>
     <packaging>war</packaging>
     <name>Time Tracker (Web)</name>
 
