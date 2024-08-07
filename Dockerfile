@@ -1,8 +1,12 @@
 #Base image
 FROM tomcat:8.5
 
-#COPY
-COPY ./web/target/Power-Cloud-1.war /usr/local/tomcat/webapps/
+# Remove the default webapps
+RUN rm -rf /usr/local/tomcat/webapps/*
+
+# Copy the WAR file into Tomcat's webapps directory
+COPY /var/lib/jenkins/workspace/Jenkins_pipeline_job/web/target/java-app.war /usr/local/tomcat/webapps/
+
 EXPOSE 8080
 
 WORKDIR /usr/local/tomcat/webapps/
