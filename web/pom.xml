@@ -9,7 +9,7 @@
     </parent>
 
     <artifactId>time-tracker-web</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>Time Tracker (Web)</name>
 
     <dependencies>
