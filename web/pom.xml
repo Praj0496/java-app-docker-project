@@ -7,8 +7,7 @@
         <artifactId>time-tracker-parent</artifactId>
         <version>0.1.0</version>
     </parent>
-    <!-- time-tracker-web -->
-    <artifactId>java-app</artifactId>
+    <artifactId>time-tracker-web</artifactId>
     <packaging>war</packaging>
     <name>Time Tracker (Web)</name>
 
