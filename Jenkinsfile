@@ -51,8 +51,8 @@ stages{
         def dockerRun = "docker run -p 8080:8080 -d --name myweb praj0404/javadocker:$BUILD_NUMBER"
 
 	sshagent(['docker']) {
-        sh "ssh -o StrictHostKeyChecking=no ubuntu@13.234.75.249 ${dockerdel}"
-        sh "ssh -o StrictHostKeyChecking=no ubuntu@13.234.75.249 ${dockerRun}"
+        sh "ssh -o StrictHostKeyChecking=no ubuntu@15.206.164.47 ${dockerdel}"
+        sh "ssh -o StrictHostKeyChecking=no ubuntu@15.206.164.47 ${dockerRun}"
 }
 	}
     }       

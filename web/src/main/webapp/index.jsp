@@ -8,12 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Welcome to Powercloud.</title>
+    <title>Welcome to java site</title>
 </head>
 <body>
-  <h1>DevOps and Cloud</h1>
+  <h1>Java application running from docker container based on war file</h1>
   <p>
-    Join with us!
+    It is running!!!!
   </p>
 </body>
 </html>
