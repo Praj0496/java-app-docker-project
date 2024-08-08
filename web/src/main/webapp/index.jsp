@@ -13,7 +13,7 @@
 <body>
   <h1>Java application running from docker container based on war file</h1>
   <p>
-    It is running!!!!
+    It is running again!!!!
   </p>
 </body>
 </html>
