@@ -8,12 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Welcome to java site</title>
+    <title>Hello !!! Welcome to java site</title>
 </head>
 <body>
   <h1>Java application running from docker container based on war file</h1>
   <p>
-    It is running again!!!!
+    This is for testing purpose!!!!
   </p>
 </body>
 </html>
